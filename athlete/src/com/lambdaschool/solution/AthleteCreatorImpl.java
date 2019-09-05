@@ -9,8 +9,8 @@ public class AthleteCreatorImpl implements AthleteCreationService {
 
 
     @Override
-    public void displayAthlete(String msgSrv) {
-        System.out.println("\n************\n" + sport + " " + msgSrv);
+    public void displayAthlete() {
+        System.out.println("\n************\n" + sport + " Athlete" + "\n************\n");
     }
 
     @Override

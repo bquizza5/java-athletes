@@ -11,9 +11,7 @@ public class MyApplication implements Processor {
     @Override
     public void displayAthlete()
     {
-        String msg =  "Athlete \n************";
-
-        msgSrv.displayAthlete(msg);
+        msgSrv.displayAthlete();
     }
 
     @Override
